@@ -26,5 +26,6 @@ code of the move, si is the code of the stock involved, and xi is the number of 
 ## Results
 Some Transactions:
 ![text](dataframe.png)
+
 Graphs:
 ![text](small.png)
