@@ -20,12 +20,13 @@ code of the move, si is the code of the stock involved, and xi is the number of 
 > - The allowed types of trades (actions) are *buy* and *sell*.
 > - Trades can be performed at three distinct time windows within a day: the *open* window, which precedes the *low* and *high* window, which in turn precede the *close* window. All trades have to be performed in chronological order within the same day. For example, you cannot acquire 10 units of one stock at low and sell them at open of the same day.
 > - The money used to buy stocks, or the stocks for sale, need to be available before performing each window's trades. For example, you can sell at high 30 units that you bought at open of the same day, however you can't sell them if you bought them at low, since low and high belong in the same time window.
-> - The total number of a stock's units bought/sold during a day cannot exceed 10% of the stock's volume during that day.
-> - Supposing that before the open window of a day you have n ≥ 0 units of a specific stock, you are not allowed to buy more than n+1 units of this stock during that day. For example, if you have 20 units of AAPL before the open window of a day, then you can buy **at most** 21 units of AAPL during that day, even if you intend to sell them before the close window.
+> - The total amount of dollars we can spend in a certain day can't be over 1.000.000 $.
 
 ## Results
-Some Transactions:
+### Some Transactions:
+
 ![text](dataframe.png)
 
-Graphs:
+### Evaluation Graphs:
+
 ![text](small.png)
