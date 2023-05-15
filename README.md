@@ -24,4 +24,7 @@ code of the move, si is the code of the stock involved, and xi is the number of 
 > - Supposing that before the open window of a day you have n ≥ 0 units of a specific stock, you are not allowed to buy more than n+1 units of this stock during that day. For example, if you have 20 units of AAPL before the open window of a day, then you can buy **at most** 21 units of AAPL during that day, even if you intend to sell them before the close window.
 
 ## Results
-![text](small.png){ width=60%,height:30px }
+Some Transactions:
+![text](dataframe.png)
+Graphs:
+![text](small.png)
